@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar";
 import ProductCard from "../components/ProductCard";
 import { Link } from "react-router-dom";
 import { products } from "../data/productos";
+import { destacados } from "../data/destacados";
 import { FaTruck, FaWhatsapp, FaShippingFast, FaLaptopCode } from "react-icons/fa";
 
 const categories = ["Remeras", "Conjuntos", "Pantalones", "Camperas"];
@@ -70,14 +71,32 @@ function Home() {
             </header>
 
             <main className="flex-grow">
-                {/* Banner */}
+                {/* Banner
                 <section className="w-full h-64 sm:h-96 md:h-[32rem] lg:h-[40rem] bg-gray-200 flex items-center justify-center">
                     <img
                         src="/img/Presentacion.png"
                         alt="Presentación"
                         className="w-full h-full object-cover"
                     />
+                </section> */}
+
+                {/* Sección Banner Nueva Colección */}
+                <section className="w-full p-4 mt-18 md:p-6 my-8">
+                    {/* Contenedor principal con estilos basados en el ejemplo */}
+                    <div className="relative w-full rounded-2xl shadow-2xl overflow-hidden border-l-8 border-red-800 hover:shadow-red-900/30 transition-shadow duration-300">
+                        <img
+                            src="../img/bannernavidad(1).webp"
+                            alt="Nueva Colección Fiestas: Navidad y Año Nuevo en Mora Indu Moda"
+                            className="w-full h-auto object-cover"
+                            width={1920}
+                            height={1080}
+                            loading="eager"
+                        />
+
+
+                    </div>
                 </section>
+
 
                 {/* Categorías */}
                 <section className="p-6 grid grid-cols-1 sm:grid-cols-3 gap-6 text-center">
@@ -96,6 +115,7 @@ function Home() {
                         <img src="../img/jogginwideleg.jpeg" alt="Pantalones" className="w-full h-40 object-cover rounded mt-2" />
                     </Link>
                 </section>
+
                 {/* Promociones */}
                 {/* <section className="p-6">
                     <div className="bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-200 border-l-8 border-yellow-600 text-yellow-900 p-6 rounded-xl shadow-lg text-center animate-pulse">
@@ -180,7 +200,7 @@ function Home() {
                         }}
                     >
                         <div className="flex gap-4">
-                            {products.map((p, idx) => (
+                            {destacados.map((p, idx) => (
                                 <div
                                     key={idx}
                                     className="min-w-[250px] flex-shrink-0 snap-start"

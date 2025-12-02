@@ -22,3 +22,5 @@ fs.writeFileSync(
 );
 
 console.log("✅ Archivo generado: productsWithId.js");
+
+//Para generar IDS IR A cd C:\Users\Camila\Desktop\MoraIndu\mora\src\data Y TIPEAR node addIds.js//

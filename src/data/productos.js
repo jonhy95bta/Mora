@@ -33,7 +33,7 @@ export const products = [
         "category": "Pantalones",
         "image": "/img/pantalonnevado2.jpeg",
         "hoverImage": "/img/pantalonnevado.jpeg",
-        "price": 25000,
+        "price": 21990,
         "sizes": {
             "S": false,
             "M": true,
@@ -75,7 +75,7 @@ export const products = [
         "category": "Pantalones",
         "image": "/img/jeanliso.jpeg",
         "hoverImage": "img/jeanliso2.jpeg",
-        "price": 25000,
+        "price": 21990,
         "sizes": {
             "S": true,
             "M": false,
@@ -89,7 +89,7 @@ export const products = [
         "category": "Pantalones",
         "image": "/img/jeannegro.jpeg",
         "hoverImage": "/img/jeannegro2.jpeg",
-        "price": 25000,
+        "price": 21990,
         "sizes": {
             "S": true,
             "M": false,
@@ -103,7 +103,7 @@ export const products = [
         "category": "Pantalones",
         "image": "/img/jogginwideleg.jpeg",
         "hoverImage": "/img/jogginwideleg2.jpeg",
-        "price": 18000,
+        "price": 15990,
         "sizes": {
             "S": false,
             "M": true,
@@ -133,7 +133,7 @@ export const products = [
         "hoverImage": "/img/conjuntomorley2.jpeg",
         "price": 25000,
         "sizes": {
-            "S": true,
+            "S": false,
             "M": false,
             "L": false,
             "XL": true
@@ -149,7 +149,7 @@ export const products = [
         "sizes": {
             "S": false,
             "M": false,
-            "L": true,
+            "L": false,
             "XL": true
         }
     },
@@ -169,24 +169,11 @@ export const products = [
     },
     {
         "id": "ms4omm35",
-        "name": "Sin Stock",
-        "category": "Camperas",
-        "image": "/img/campera-negra.png",
-        "price": 0,
-        "sizes": {
-            "S": true,
-            "M": true,
-            "L": true,
-            "XL": true
-        }
-    },
-    {
-        "id": "1oibv6ki",
-        "name": "Remera Batik blanca",
-        "category": "Remeras",
-        "image": "/img/batik-blanca.jpg",
-        "hoverImage": "/img/batikgris2.jpg",
-        "price": 10000,
+        "name": "Vestidos",
+        "category": "Conjuntos",
+        "image": "/img/vestidoblanco1.jpg",
+        "hoverImage": "/img/vestidocebra.jpg",
+        "price": 14800,
         "sizes": {
             "S": true,
             "M": true,
@@ -252,11 +239,11 @@ export const products = [
     },
     {
         "id": "1sqo2dck",
-        "name": "Remera Vintage",
-        "category": "Remeras",
-        "image": "/img/desgastada-pinkfloyd.jpg",
-        "hoverImage": "/img/vintagepink2.jpg",
-        "price": 13000,
+        "name": "Monito Verde",
+        "category": "Conjuntos",
+        "image": "/img/monitoverde.png",
+        "hoverImage": "/img/monito2.jpg",
+        "price": 18000,
         "sizes": {
             "S": true,
             "M": true,
@@ -266,11 +253,25 @@ export const products = [
     },
     {
         "id": "woawtluk",
-        "name": "Remera Vintage",
-        "category": "Remeras",
-        "image": "/img/desgastada-rolling.jpg",
-        "hoverImage": "/img/vintagelengua2.jpg",
-        "price": 13000,
+        "name": "Monito Negro",
+        "category": "Conjuntos",
+        "image": "/img/monitonegro.png",
+        "hoverImage": "/img/monito2.jpg",
+        "price": 18000,
+        "sizes": {
+            "S": true,
+            "M": true,
+            "L": true,
+            "XL": true
+        }
+    },
+    {
+        "id": "1oibv6ki",
+        "name": "Monito Blanco",
+        "category": "Conjuntos",
+        "image": "/img/monitoblanco.png",
+        "hoverImage": "/img/monito2.jpg",
+        "price": 18000,
         "sizes": {
             "S": true,
             "M": true,
@@ -280,11 +281,11 @@ export const products = [
     },
     {
         "id": "p5wlmkbg",
-        "name": "Remera Oversize",
-        "category": "Remeras",
-        "image": "/img/floreada-beige.jpg",
-        "hoverImage": "/img/denimbeige2.jpg",
-        "price": 13000,
+        "name": "Monito Rojo",
+        "category": "Conjuntos",
+        "image": "/img/monitorojo.png",
+        "hoverImage": "/img/monito2.jpg",
+        "price": 18000,
         "sizes": {
             "S": true,
             "M": true,
@@ -308,44 +309,44 @@ export const products = [
     },
     {
         "id": "9rz4ivzw",
-        "name": "Remera Oversize",
-        "category": "Remeras",
-        "image": "/img/floreada-negra.jpg",
-        "hoverImage": "/img/denimnegra2.jpg",
-        "price": 13000,
+        "name": "Short Adidas negro",
+        "category": "Pantalones",
+        "image": "/img/shortadidasnegro.png",
+        "hoverImage": "/img/shortadidas22.jpg",
+        "price": 15000,
         "sizes": {
-            "S": true,
+            "S": false,
             "M": true,
-            "L": true,
+            "L": false,
             "XL": true
         }
     },
     {
         "id": "4p0634k1",
-        "name": "Remera Oversize",
-        "category": "Remeras",
-        "image": "/img/floreada-verde.jpg",
-        "hoverImage": "/img/denimverde2.jpg",
-        "price": 13000,
+        "name": "Short Adidas blanco",
+        "category": "Pantalones",
+        "image": "/img/shortadidasblanco.png",
+        "hoverImage": "/img/shortadidas22.jpg",
+        "price": 15000,
         "sizes": {
-            "S": true,
-            "M": true,
+            "S": false,
+            "M": false,
             "L": true,
             "XL": true
         }
     },
     {
         "id": "ka43k8kl",
-        "name": "Remera Holgada",
-        "category": "Remeras",
-        "image": "/img/holgada-celeste.jpg",
-        "hoverImage": "/img/holgadas2.jpg",
-        "price": 14000,
+        "name": "Short Adidas azul",
+        "category": "Pantalones",
+        "image": "/img/shortadidasazul.png",
+        "hoverImage": "/img/shortadidas22.jpg",
+        "price": 15000,
         "sizes": {
-            "S": true,
-            "M": true,
+            "S": false,
+            "M": false,
             "L": true,
-            "XL": true
+            "XL": false
         }
     },
     {
@@ -364,11 +365,11 @@ export const products = [
     },
     {
         "id": "y5v6kwst",
-        "name": "Remera Holgada",
+        "name": "Musculosa Dama negra",
         "category": "Remeras",
-        "image": "/img/holgada-verde.jpg",
-        "hoverImage": "/img/holgadas2.jpg",
-        "price": 14000,
+        "image": "/img/musculosadamanegra.png",
+        "hoverImage": "/img/musculosadama2.jpg",
+        "price": 10500,
         "sizes": {
             "S": true,
             "M": true,
@@ -434,11 +435,11 @@ export const products = [
     },
     {
         "id": "00cyjue9",
-        "name": "Musculosa Vintage",
+        "name": "Musculosa Dama blanca",
         "category": "Remeras",
-        "image": "/img/musculosa-limon.jpg",
-        "hoverImage": "/img/musculosalimon2.jpg",
-        "price": 10000,
+        "image": "/img/musculosadamablanca.png",
+        "hoverImage": "/img/musculosadama2.jpg",
+        "price": 10500,
         "sizes": {
             "S": true,
             "M": true,
@@ -504,30 +505,30 @@ export const products = [
     },
     {
         "id": "h884kuvg",
-        "name": "Short Adidas",
-        "category": "Pantalones",
-        "image": "/img/short-adidas-bordo.jpg",
-        "hoverImage": "/img/shortadidas2.jpg",
-        "price": 14000,
+        "name": "Musculosa Dama roja",
+        "category": "Remeras",
+        "image": "/img/musculosadamaroja.png",
+        "hoverImage": "/img/musculosadama2.jpg",
+        "price": 10500,
         "sizes": {
-            "S": false,
+            "S": true,
             "M": true,
             "L": true,
-            "XL": false
+            "XL": true
         }
     },
     {
         "id": "c50yb0rj",
-        "name": "Short Adidas",
-        "category": "Pantalones",
-        "image": "/img/adidasvioleta.jpg",
-        "hoverImage": "/img/shortadidas2.jpg",
-        "price": 14000,
+        "name": "Conjunto Rojo",
+        "category": "Conjuntos",
+        "image": "/img/conjuntorojo.png",
+        "hoverImage": "/img/conjuntorojo2.jpg",
+        "price": 20000,
         "sizes": {
             "S": false,
             "M": true,
-            "L": true,
-            "XL": false
+            "L": false,
+            "XL": true
         }
     },
     {
@@ -574,16 +575,16 @@ export const products = [
     },
     {
         "id": "b0qsjqpy",
-        "name": "Short Calza",
-        "category": "Pantalones",
-        "image": "/img/short-calza-negra.jpg",
-        "hoverImage": "/img/shortcalzanegra2.webp",
-        "price": 10000,
+        "name": "Conjunto Negro",
+        "category": "Conjuntos",
+        "image": "/img/conjuntonegro.png",
+        "hoverImage": "/img/conjuntonegro2.jpg",
+        "price": 20000,
         "sizes": {
             "S": false,
             "M": true,
-            "L": true,
-            "XL": false
+            "L": false,
+            "XL": true
         }
     },
     {
@@ -592,7 +593,7 @@ export const products = [
         "category": "Pantalones",
         "image": "/img/wideleg-negro.jpg",
         "hoverImage": "/img/wideleg-negro2.jpg",
-        "price": 26000,
+        "price": 21990,
         "sizes": {
             "S": false,
             "M": false,
@@ -606,7 +607,7 @@ export const products = [
         "category": "Pantalones",
         "image": "/img/jogging-adidas-leo.jpg",
         "hoverImage": "/img/jogginadidasleo2.jpg",
-        "price": 18000,
+        "price": 15990,
         "sizes": {
             "S": true,
             "M": false,
@@ -620,12 +621,12 @@ export const products = [
         "category": "Pantalones",
         "image": "/img/joggin-adidas-byn.jpg",
         "hoverImage": "/img/jogginadidas2.jpg",
-        "price": 18000,
+        "price": 15990,
         "sizes": {
             "S": true,
             "M": true,
             "L": false,
-            "XL": true
+            "XL": false
         }
     },
     {
@@ -634,10 +635,10 @@ export const products = [
         "category": "Pantalones",
         "image": "/img/baggy.jpg",
         "hoverImage": "/img/baggy2.jpg",
-        "price": 25000,
+        "price": 21990,
         "sizes": {
             "S": false,
-            "M": true,
+            "M": false,
             "L": true,
             "XL": false
         }
@@ -694,7 +695,7 @@ export const products = [
         "sizes": {
             "S": false,
             "M": true,
-            "L": true,
+            "L": false,
             "XL": false
         }
     },
@@ -742,11 +743,11 @@ export const products = [
     },
     {
         "id": "g8d8y7uk",
-        "name": "Remera Morley Verde",
+        "name": "Rayada Verde",
         "category": "Remeras",
-        "image": "/img/morley-verde.jpg",
-        "hoverImage": "/img/hollyverde2.jpg",
-        "price": 10000,
+        "image": "/img/rayadaverde.jpg",
+        "hoverImage": "/img/rayadas2.jpg",
+        "price": 11500,
         "sizes": {
             "S": true,
             "M": true,
@@ -756,11 +757,11 @@ export const products = [
     },
     {
         "id": "20uhxpp4",
-        "name": "Remera Oversize",
+        "name": "Rayada Negra",
         "category": "Remeras",
-        "image": "/img/oversize2.jpeg",
-        "hoverImage": "/img/overmarron2.jpg",
-        "price": 10000,
+        "image": "/img/rayadanegra.jpg",
+        "hoverImage": "/img/rayadas2.jpg",
+        "price": 11500,
         "sizes": {
             "S": true,
             "M": true,
@@ -770,16 +771,16 @@ export const products = [
     },
     {
         "id": "irmhkvlg",
-        "name": "Remera Oversize",
+        "name": "Musculosa Deportiva negra",
         "category": "Remeras",
-        "image": "/img/oversize.jpeg",
-        "hoverImage": "/img/overbeige2.jpg",
-        "price": 10000,
+        "image": "/img/musculosadeportivanegra.png",
+        "hoverImage": "/img/musculosadeportivas2.jpg",
+        "price": 9000,
         "sizes": {
-            "S": true,
-            "M": true,
+            "S": false,
+            "M": false,
             "L": true,
-            "XL": true
+            "XL": false
         }
     },
     {
@@ -826,44 +827,44 @@ export const products = [
     },
     {
         "id": "uo3mw8b3",
-        "name": "Remera Lisa Marrón",
+        "name": "Musculosa Deportiva lila",
         "category": "Remeras",
-        "image": "/img/lisa-marron.jpg",
-        "hoverImage": "/img/lisa-marron2.jpg",
-        "price": 10000,
+        "image": "/img/musculosadeportivalila.png",
+        "hoverImage": "/img/musculosadeportivas2.jpg",
+        "price": 9000,
         "sizes": {
-            "S": true,
-            "M": true,
+            "S": false,
+            "M": false,
             "L": true,
-            "XL": true
+            "XL": false
         }
     },
     {
         "id": "o0xq9pgg",
-        "name": "Remera Lisa Negra",
+        "name": "Musculosa Deportiva rosa",
         "category": "Remeras",
-        "image": "/img/lisa-negra.jpg",
-        "hoverImage": "/img/lisanegra2.jpg",
-        "price": 10000,
+        "image": "/img/musculosadeportivarosa.png",
+        "hoverImage": "/img/musculosadeportivas2.jpg",
+        "price": 9000,
         "sizes": {
-            "S": true,
-            "M": true,
+            "S": false,
+            "M": false,
             "L": true,
-            "XL": true
+            "XL": false
         }
     },
     {
         "id": "s2tojmad",
-        "name": "Remeron Tigre",
-        "category": "Remeras",
-        "image": "/img/Remeron.jpeg",
-        "hoverImage": "/img/Remerontigre2.jpg",
-        "price": 13000,
+        "name": "Short Hombre",
+        "category": "Pantalones",
+        "image": "/img/shorthombre1.png",
+        "hoverImage": "/img/shorthombre2.png",
+        "price": 15000,
         "sizes": {
-            "S": true,
+            "S": false,
             "M": true,
             "L": true,
-            "XL": true
+            "XL": false
         }
     },
     {
@@ -873,6 +874,203 @@ export const products = [
         "image": "/img/Remeron2.jpeg",
         "hoverImage": "/img/Remeronmade2.jpg",
         "price": 13000,
+        "sizes": {
+            "S": true,
+            "M": true,
+            "L": true,
+            "XL": true
+        }
+    },
+    {
+        "id": "6p5wpfc9",
+        "name": "Musculosa Corta blanca",
+        "category": "Remeras",
+        "image": "/img/musculosacortablanca.png",
+        "hoverImage": "/img/musculosascortas2.jpg",
+        "price": 9500,
+        "sizes": {
+            "S": true,
+            "M": true,
+            "L": true,
+            "XL": true
+        }
+    },
+    {
+        "id": "uba0wbmr",
+        "name": "Musculosa Corta verde",
+        "category": "Remeras",
+        "image": "/img/musculosacortaverde.png",
+        "hoverImage": "/img/musculosascortas.jpg",
+        "price": 9500,
+        "sizes": {
+            "S": true,
+            "M": true,
+            "L": true,
+            "XL": true
+        }
+    },
+    {
+        "id": "vjo46khp",
+        "name": "Musculosa Corta roja",
+        "category": "Remeras",
+        "image": "/img/musculosacortaroja.png",
+        "hoverImage": "/img/musculosascortas.jpg",
+        "price": 9500,
+        "sizes": {
+            "S": true,
+            "M": true,
+            "L": true,
+            "XL": true
+        }
+    },
+    {
+        "id": "exln8yu0",
+        "name": "Musculosa Corta marron",
+        "category": "Remeras",
+        "image": "/img/musculosacortamarron.png",
+        "hoverImage": "/img/musculosascortas.jpg",
+        "price": 9500,
+        "sizes": {
+            "S": true,
+            "M": true,
+            "L": true,
+            "XL": true
+        }
+    },
+    {
+        "id": "g6lxp449",
+        "name": "Remera Alo blanca",
+        "category": "Remeras",
+        "image": "/img/remeraaloblanca.png",
+        "hoverImage": "/img/remeraalo.jpg",
+        "price": 9500,
+        "sizes": {
+            "S": true,
+            "M": true,
+            "L": true,
+            "XL": true
+        }
+    },
+    {
+        "id": "x95bum58",
+        "name": "Remera Alo negra",
+        "category": "Remeras",
+        "image": "/img/remeraalonegra.png",
+        "hoverImage": "/img/remeraalo.jpg",
+        "price": 9500,
+        "sizes": {
+            "S": true,
+            "M": true,
+            "L": true,
+            "XL": true
+        }
+    },
+    {
+        "id": "audrabbq",
+        "name": "Remera Alo verde",
+        "category": "Remeras",
+        "image": "/img/remeraaloverde.png",
+        "hoverImage": "/img/remeraalo.jpg",
+        "price": 9500,
+        "sizes": {
+            "S": true,
+            "M": true,
+            "L": true,
+            "XL": true
+        }
+    },
+    {
+        "id": "27rqxasb",
+        "name": "Short Pollera roja",
+        "category": "Pantalones",
+        "image": "/img/shortpolleraroja.png",
+        "hoverImage": "/img/shortpollera.jpg",
+        "price": 15000,
+        "sizes": {
+            "S": false,
+            "M": true,
+            "L": false,
+            "XL": true,
+            "XXL": true
+        }
+    },
+    {
+        "id": "w29hdit4",
+        "name": "Short Pollera negra",
+        "category": "Pantalones",
+        "image": "/img/shortpolleranegra.png",
+        "hoverImage": "/img/shortpollera.jpg",
+        "price": 15000,
+        "sizes": {
+            "S": true,
+            "M": false,
+            "L": true,
+            "XL": false
+        }
+    },
+    {
+        "id": "lph3cv0j",
+        "name": "Musculosa Vestir Roja",
+        "category": "Remeras",
+        "image": "/img/musculosanavidadroja.png",
+        "hoverImage": "/img/musculosasnavidad.jpg",
+        "price": 11500,
+        "sizes": {
+            "S": true,
+            "M": true,
+            "L": true,
+            "XL": true
+        }
+    },
+    {
+        "id": "de2bqihy",
+        "name": "Musculosa Vestir blanca",
+        "category": "Remeras",
+        "image": "/img/musculosanavidadblanca.png",
+        "hoverImage": "/img/musculosasnavidad.jpg",
+        "price": 11500,
+        "sizes": {
+            "S": true,
+            "M": true,
+            "L": true,
+            "XL": true
+        }
+    },
+    {
+        "id": "miia4mhn",
+        "name": "Musculosa Volados rojo",
+        "category": "Remeras",
+        "image": "/img/musculosavoladoroja.png",
+        "hoverImage": "/img/musculosasvoladas.jpg",
+        "price": 9500,
+        "sizes": {
+            "S": true,
+            "M": true,
+            "L": true,
+            "XL": true
+        }
+    },
+    {
+        "id": "vc5weso1",
+        "name": "Musculosa Volados blanco",
+        "category": "Remeras",
+        "image": "/img/musculosavoladoblanca.png",
+        "hoverImage": "/img/musculosasvoladas.jpg",
+        "price": 9500,
+        "sizes": {
+            "S": true,
+            "M": true,
+            "L": true,
+            "XL": true
+        }
+    },
+    {
+        "id": "v217b6u8",
+        "name": "Musculosa Volados negro",
+        "category": "Remeras",
+        "image": "/img/musculosavoladonegra.png",
+        "hoverImage": "/img/musculosasvoladas.jpg",
+        "price": 9500,
         "sizes": {
             "S": true,
             "M": true,
