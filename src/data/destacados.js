@@ -1,10 +1,10 @@
 export const destacados = [
-            {
+    {
         "id": "b0qsjqpy",
         "name": "Conjunto Negro",
         "category": "Conjuntos",
-        "image": "/img/conjuntonegro.png",
-        "hoverImage": "/img/conjuntonegro2.jpg",
+        "image": "/img/conjuntonegro.webp",
+        "hoverImage": "/img/conjuntonegro2.webp",
         "price": 20000,
         "sizes": {
             "S": false,
@@ -13,12 +13,12 @@ export const destacados = [
             "XL": true
         }
     },
-        {
+    {
         "id": "c50yb0rj",
         "name": "Conjunto Rojo",
         "category": "Conjuntos",
-        "image": "/img/conjuntorojo.png",
-        "hoverImage": "/img/conjuntorojo2.jpg",
+        "image": "/img/conjuntorojo.webp",
+        "hoverImage": "/img/conjuntorojo2.webp",
         "price": 20000,
         "sizes": {
             "S": false,
@@ -31,8 +31,8 @@ export const destacados = [
         "id": "27rqxasb",
         "name": "Short Pollera roja",
         "category": "Pantalones",
-        "image": "/img/shortpolleraroja.png",
-        "hoverImage": "/img/shortpollera.jpg",
+        "image": "/img/shortpolleraroja.webp",
+        "hoverImage": "/img/shortpollera.webp",
         "price": 15000,
         "sizes": {
             "S": false,
@@ -46,8 +46,8 @@ export const destacados = [
         "id": "w29hdit4",
         "name": "Short Pollera negra",
         "category": "Pantalones",
-        "image": "/img/shortpolleranegra.png",
-        "hoverImage": "/img/shortpollera.jpg",
+        "image": "/img/shortpolleranegra.webp",
+        "hoverImage": "/img/shortpollera.webp",
         "price": 15000,
         "sizes": {
             "S": true,
@@ -60,8 +60,8 @@ export const destacados = [
         "id": "lph3cv0j",
         "name": "Musculosa Vestir Roja",
         "category": "Remeras",
-        "image": "/img/musculosanavidadroja.png",
-        "hoverImage": "/img/musculosasnavidad.jpg",
+        "image": "/img/musculosanavidadroja.webp",
+        "hoverImage": "/img/musculosasnavidad.webp",
         "price": 11500,
         "sizes": {
             "S": true,
@@ -74,8 +74,8 @@ export const destacados = [
         "id": "de2bqihy",
         "name": "Musculosa Vestir blanca",
         "category": "Remeras",
-        "image": "/img/musculosanavidadblanca.png",
-        "hoverImage": "/img/musculosasnavidad.jpg",
+        "image": "/img/musculosanavidadblanca.webp",
+        "hoverImage": "/img/musculosasnavidad.webp",
         "price": 11500,
         "sizes": {
             "S": true,
@@ -88,8 +88,8 @@ export const destacados = [
         "id": "miia4mhn",
         "name": "Musculosa Volados rojo",
         "category": "Remeras",
-        "image": "/img/musculosavoladoroja.png",
-        "hoverImage": "/img/musculosasvoladas.jpg",
+        "image": "/img/musculosavoladoroja.webp",
+        "hoverImage": "/img/musculosasvoladas.webp",
         "price": 9500,
         "sizes": {
             "S": true,
@@ -102,8 +102,8 @@ export const destacados = [
         "id": "vc5weso1",
         "name": "Musculosa Volados blanco",
         "category": "Remeras",
-        "image": "/img/musculosavoladoblanca.png",
-        "hoverImage": "/img/musculosasvoladas.jpg",
+        "image": "/img/musculosavoladoblanca.webp",
+        "hoverImage": "/img/musculosasvoladas.webp",
         "price": 9500,
         "sizes": {
             "S": true,
@@ -116,8 +116,8 @@ export const destacados = [
         "id": "v217b6u8",
         "name": "Musculosa Volados negro",
         "category": "Remeras",
-        "image": "/img/musculosavoladonegra.png",
-        "hoverImage": "/img/musculosasvoladas.jpg",
+        "image": "/img/musculosavoladonegra.webp",
+        "hoverImage": "/img/musculosasvoladas.webp",
         "price": 9500,
         "sizes": {
             "S": true,
@@ -125,13 +125,13 @@ export const destacados = [
             "L": true,
             "XL": true
         }
-},
+    },
     {
         "id": "uba0wbmr",
         "name": "Musculosa Corta verde",
         "category": "Remeras",
-        "image": "/img/musculosacortaverde.png",
-        "hoverImage": "/img/musculosascortas.jpg",
+        "image": "/img/musculosacortaverde.webp",
+        "hoverImage": "/img/musculosascortas.webp",
         "price": 9500,
         "sizes": {
             "S": true,
@@ -144,8 +144,8 @@ export const destacados = [
         "id": "vjo46khp",
         "name": "Musculosa Corta roja",
         "category": "Remeras",
-        "image": "/img/musculosacortaroja.png",
-        "hoverImage": "/img/musculosascortas.jpg",
+        "image": "/img/musculosacortaroja.webp",
+        "hoverImage": "/img/musculosascortas.webp",
         "price": 9500,
         "sizes": {
             "S": true,
@@ -158,8 +158,8 @@ export const destacados = [
         "id": "6p5wpfc9",
         "name": "Musculosa Corta blanca",
         "category": "Remeras",
-        "image": "/img/musculosacortablanca.png",
-        "hoverImage": "/img/musculosascortas2.jpg",
+        "image": "/img/musculosacortablanca.webp",
+        "hoverImage": "/img/musculosascortas.webp",
         "price": 9500,
         "sizes": {
             "S": true,
@@ -168,13 +168,12 @@ export const destacados = [
             "XL": true
         }
     },
-
-        {
+    {
         "id": "h884kuvg",
         "name": "Musculosa Dama roja",
         "category": "Remeras",
-        "image": "/img/musculosadamaroja.png",
-        "hoverImage": "/img/musculosadama2.jpg",
+        "image": "/img/musculosadamaroja.webp",
+        "hoverImage": "/img/musculosadama2.webp",
         "price": 10500,
         "sizes": {
             "S": true,
@@ -183,12 +182,12 @@ export const destacados = [
             "XL": true
         }
     },
-        {
+    {
         "id": "00cyjue9",
         "name": "Musculosa Dama blanca",
         "category": "Remeras",
-        "image": "/img/musculosadamablanca.png",
-        "hoverImage": "/img/musculosadama2.jpg",
+        "image": "/img/musculosadamablanca.webp",
+        "hoverImage": "/img/musculosadama2.webp",
         "price": 10500,
         "sizes": {
             "S": true,
@@ -197,12 +196,12 @@ export const destacados = [
             "XL": true
         }
     },
-        {
+    {
         "id": "1sqo2dck",
         "name": "Monito Verde",
         "category": "Conjuntos",
-        "image": "/img/monitoverde.png",
-        "hoverImage": "/img/monito2.jpg",
+        "image": "/img/monitoverde.webp",
+        "hoverImage": "/img/monito2.webp",
         "price": 18000,
         "sizes": {
             "S": true,
@@ -215,8 +214,8 @@ export const destacados = [
         "id": "woawtluk",
         "name": "Monito Negro",
         "category": "Conjuntos",
-        "image": "/img/monitonegro.png",
-        "hoverImage": "/img/monito2.jpg",
+        "image": "/img/monitonegro.webp",
+        "hoverImage": "/img/monito2.webp",
         "price": 18000,
         "sizes": {
             "S": true,
@@ -229,8 +228,8 @@ export const destacados = [
         "id": "1oibv6ki",
         "name": "Monito Blanco",
         "category": "Conjuntos",
-        "image": "/img/monitoblanco.png",
-        "hoverImage": "/img/monito2.jpg",
+        "image": "/img/monitoblanco.webp",
+        "hoverImage": "/img/monito2.webp",
         "price": 18000,
         "sizes": {
             "S": true,
@@ -243,8 +242,8 @@ export const destacados = [
         "id": "p5wlmkbg",
         "name": "Monito Rojo",
         "category": "Conjuntos",
-        "image": "/img/monitorojo.png",
-        "hoverImage": "/img/monito2.jpg",
+        "image": "/img/monitorojo.webp",
+        "hoverImage": "/img/monito2.webp",
         "price": 18000,
         "sizes": {
             "S": true,
@@ -252,7 +251,7 @@ export const destacados = [
             "L": true,
             "XL": true
         }
-    },
-
-
+    }
 ]
+
+

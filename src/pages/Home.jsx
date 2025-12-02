@@ -102,7 +102,7 @@ function Home() {
                 <section className="p-6 grid grid-cols-1 sm:grid-cols-3 gap-6 text-center">
                     <Link to="/remeras" className="bg-white shadow-md rounded-lg p-4 hover:shadow-xl transition cursor-pointer">
                         <h2 className="text-lg font-semibold">Remeras</h2>
-                        <img src="../img/oversize.jpeg" alt="Remeras" className="w-full h-40 object-cover rounded mt-2" />
+                        <img src="../img/musculosavoladoroja.webp" alt="Remeras" className="w-full h-40 object-cover rounded mt-2" />
                     </Link>
 
                     <Link to="/conjuntos" className="bg-white shadow-md rounded-lg p-4 hover:shadow-xl transition cursor-pointer">
